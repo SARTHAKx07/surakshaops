@@ -93,7 +93,10 @@ async function hydrateFromSupabase() {
         persistLocal(key, records);
       }
     }
-  })().finally(() => { hydrationPromise = null; });
+  })().finally(() => {
+  hydrationPromise = null;
+  notify();
+});
   return hydrationPromise;
 }
 

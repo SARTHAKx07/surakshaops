@@ -104,3 +104,4 @@ npm run build
 SurakshaOps is an academic project designed to support coal mine productivity and safety management. Some modules may require further development and testing.
 
 The ERP module is currently a placeholder for future integration. This project is not a certified mine-safety system and does not replace official safety procedures.
+
